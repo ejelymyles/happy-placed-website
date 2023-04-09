@@ -1,0 +1,13 @@
+body {
+    font-family: 'Gruppo', cursive;
+}
+
+h1, h2, #welcome {
+    text-align: center;    
+}
+
+#welcome, #services, #contact {
+    background-image: linear-gradient(to right, #f4de1c, gold, orange);
+    opacity: 70;
+}
+

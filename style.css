@@ -14,6 +14,7 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    padding-top: 10px;
 }
 
 h3{
@@ -84,3 +85,24 @@ form {
     border: none;
     cursor: pointer;
 }
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  

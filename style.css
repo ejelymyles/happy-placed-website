@@ -2,12 +2,72 @@ body {
     font-family: 'Gruppo', cursive;
 }
 
-h1, h2, #welcome {
-    text-align: center;    
+#parent{
+    position: relative ;
+}
+
+h1, h2, h3, #welcome {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 0;
 }
 
 #welcome, #services, #contact {
-    background-image: linear-gradient(to right, #f4de1c, gold, orange);
-    opacity: 70;
+    background: linear-gradient(to right, #f4de1c, gold, orange);
+    background-size: cover;    
 }
 
+p, ul {
+    line-height: 22px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box {
+    width: 400px;
+    background-color: transparent;
+    box-shadow: 0, 0, 20px, 0, #999;
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    margin: 25px;
+    position: relative;
+}
+
+.input-field {
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}

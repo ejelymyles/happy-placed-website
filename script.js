@@ -5,3 +5,4 @@ sendMessageBtn.addEventListener('click', function() {
 });
 
 // adding comment to check everything working correctly on new machine
+// trying again 
